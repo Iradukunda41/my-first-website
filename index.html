@@ -1,46 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>My first Website</title>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>My First Website</title>
+     <link rel="stylesheet" href="/css/styles.css" />
 </head>
-<header>
-     <h1> My Tech Blogs</h1>
-     <nav>
-          <a href="/form.html">form</a>
-          <a href="https://www.youtube.com/">Youtube</a>
-     </nav>
-</header>
-<main>
-     <article>
-          <h2>Understanding HTML</h2>
-          <P>Sematic element are critical for a modern web page</P>
 
-     </article>
+<body>
+     <header class="header">
+          <h1>My Registration <form (ngSubmit)="onSubmit()" #form="ngForm">
+               </form>
+          </h1>
+          <nav>
+               <a href="/form.html">Form</a>
+          </nav>
+     </header>
 
-     <label for="First Name">First Name:</label>
-     <input type="text" id="firstName" name="First Name" placeholder="First Name" required>
-     <br>
-     <br>
-
-     <label for=""> select a Country</label>
-     <select name="country" id="">
-          <option value="">Rwanda</option>
-          <option value="">Kenya</option>
-     </select>
+     <main>
+          <article>
+               <h2>Understanding HTML</h2>
+               <p>Sematic element are critical for a modern web page</p>
+          </article>
+          <article>
+               <h2>Understanding CSS</h2>
+               <p>CSS is the styling language for the web</p>
+          </article>
+          </article>
+     </main>
 
 
-     <br>
-     <br>
-     <button type="button">Send Message</button>
 
-
-</main>
-
-<footer>
-     <p>© 2026 My Tech Blog</p>
-</footer>
+     <footer>
+          <p>© 2026 My Tech Blog</p>
+     </footer>
+</body>
 
 </html>
